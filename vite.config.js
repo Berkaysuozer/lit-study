@@ -11,5 +11,9 @@ export default defineConfig({
     rollupOptions: {
       input: 'index.html'
     }
+  },
+  preview: {
+    port: 8001,
+    host: true
   }
 }); 
