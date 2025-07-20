@@ -26,7 +26,7 @@ class AppNavbar extends LitElement {
     return html`
       <div class="navbar">
         <div class="logo">
-        <img src="/src/assets/ing-logo.png" class="logo-img" alt="ING Logo">
+        <img src="/assets/ing-logo.png" class="logo-img" alt="ING Logo">
           <span class="logo-text">
             ING
           </span>

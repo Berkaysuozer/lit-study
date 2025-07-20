@@ -10,10 +10,13 @@ export default defineConfig({
     target: 'esnext',
     rollupOptions: {
       input: 'index.html'
-    }
+    },
+    assetsDir: 'assets',
+    outDir: 'dist'
   },
   preview: {
     port: 8001,
     host: true
-  }
+  },
+  publicDir: 'public'
 }); 
